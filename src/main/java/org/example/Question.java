@@ -1,17 +1,17 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Question {
     private String question;
-    private List<String> answers;
-    private int correctAnswer;
-    private String cAnswer;
+    private List<Object> answers;
+    private Object correctAnswer;
 
-    public Question(String question, List<String> answers, int correctAnswer, String cAnswer){
+    public Question(String question, List<Object> answers, Object correctAnswer){
         this.question = question;
         this.answers = answers;
-        this.cAnswer = cAnswer;
         this.correctAnswer = correctAnswer;
     }
 
@@ -19,13 +19,10 @@ public class Question {
     public String getQuestion() {
         return question;
     }
-    public List<String> getAnswers() {
+    public List<Object> getAnswers() {
         return answers;
     }
-    public String getCAnswer() {
-        return cAnswer;
-    }
-    public int getCorrectAnswer() {
+    public Object getCorrectAnswer() {
         return correctAnswer;
     }
 

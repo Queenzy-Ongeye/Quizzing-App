@@ -28,19 +28,28 @@ public class Main {
 
         // Define the questions and answers for each unit
         HashMap<String, List<Question>> units = new HashMap<>();
+//          Maths Questions
         List<Question> mathsQuestions = new ArrayList<>();
-        mathsQuestions.add(new Question("What is 2+2?", Arrays.asList("1", "2", "3", "4"), 4, "null"));
-        mathsQuestions.add(new Question("What is the square root of 16?", Arrays.asList("2", "4", "6", "8"), 4, "null"));
+        mathsQuestions.add(new Question("What is 2+2?", Arrays.asList(1, 2, 3, 4), 4));
+        mathsQuestions.add(new Question("What is the square root of 16?", Arrays.asList(2, 4, 6, 8), 1));
         units.put("maths", mathsQuestions);
 
 
-        //        Getting the user input
+//        English Questions
+        List<Question> englishQuestions = new ArrayList<>();
+        englishQuestions.add(new Question("What is the capital of the United Kingdom?", Arrays.asList("Paris", "New York", "London", "Berlin"), 2));
+        englishQuestions.add(new Question("Who wrote the novel 'Pride and Prejudice'?", Arrays.asList("Jane Austen", "George Eliot", "Virginia Woolf", "Emily Bronte"), 0));
+        units.put("English", englishQuestions);
+
+//          Getting the user input
         int userInput = scanner.nextInt();
 
 //        Checking if the user input is valid
         String unit = dict.get(userInput);
 
         if (unit != null && units.containsKey(unit)) {
+//              Defining the user's score
+            int userScore = 0;
 //            Getting the list of questions for a selected unit
             List<Question> questions = units.get(unit);
 
@@ -49,26 +58,29 @@ public class Main {
                 Question question = questions.get(i);
                 System.out.println(question.getQuestion());
 
-                //            Showing the list of all the possible answers
-                List<String> answers = question.getAnswers();
+//            Showing the list of all the possible answers
+                List<Object> answers = question.getAnswers();
                 for (int k = 0; k < answers.size(); k++) {
-                    System.out.println((k + 1) + ":" + answers.get(k));
+                    System.out.println((k) + ":" + answers.get(k));
                 }
 //                Getting the user's answer
-                int userAnswer = scanner.nextInt() -1;
+                Object userAnswer = scanner.nextInt();
 
 //                Checking if the answer is correct
-                int correctAnswer = question.getCorrectAnswer();
-                if (userAnswer == correctAnswer){
+                Object correctAnswer = question.getCorrectAnswer();
+                if (userAnswer.equals(correctAnswer)) {
                     System.out.println("Correct!");
-                }else{
-                    System.out.println("Incorrect. The correct answer is" + answers.get(correctAnswer));
+                    userScore++;
+                } else {
+                    System.out.println("Incorrect. The correct answer is " + answers.get((Integer) correctAnswer));
                 }
             }
-
-        }else {
+            System.out.println("Your score is: " + userScore + "/" + questions.size());
+        } else {
             System.out.println("Invalid input.");
         }
 
+
     }
+
 }
