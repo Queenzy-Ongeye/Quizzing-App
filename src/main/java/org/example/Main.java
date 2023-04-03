@@ -25,7 +25,6 @@ public class Main {
             String value = dict.get(key);
             System.out.println(key + ":" + value);
         }
-
         // Define the questions and answers for each unit
         HashMap<String, List<Question>> units = new HashMap<>();
 //          Maths Questions
@@ -33,7 +32,6 @@ public class Main {
         mathsQuestions.add(new Question("What is 2+2?", Arrays.asList(1, 2, 3, 4), 4));
         mathsQuestions.add(new Question("What is the square root of 16?", Arrays.asList(2, 4, 6, 8), 1));
         units.put("maths", mathsQuestions);
-
 
 //        English Questions
         List<Question> englishQuestions = new ArrayList<>();
