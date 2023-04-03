@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="948ecb08-453b-45a3-98c1-5fc6e069a989" name="Changes" comment="Added questions for the english section">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="948ecb08-453b-45a3-98c1-5fc6e069a989" name="Changes" comment="feat: added a database connection file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/UserDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/GitaruSchools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/db/DBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/models/Teachers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/userTable/db/DBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/db/DBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677490635955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: added a database connection file">
+      <created>1680004600775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680004600775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a Question class" />
     <MESSAGE value="Added questions for the english section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added questions for the english section" />
+    <MESSAGE value="feat: added a database connection file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added a database connection file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
