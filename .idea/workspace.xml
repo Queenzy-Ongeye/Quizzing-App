@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="948ecb08-453b-45a3-98c1-5fc6e069a989" name="Changes" comment="feat:imported jdbc and added Sql2o dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/JdbcUserdao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/UserDao.java" afterDir="false" />
+    <list default="true" id="948ecb08-453b-45a3-98c1-5fc6e069a989" name="Changes" comment="feat:added crud operations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CourseStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/Sql2oUserDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/GitaruSchools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/userTable/db/DBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/db/DBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/userTable/models/Teachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/models/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GitaruSchools">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CourseStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CourseStructure" />
+      <module name="Quizzing-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GitaruSchools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.userTable.GitaruSchools" />
       <module name="Quizzing-App" />
@@ -86,8 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GitaruSchools" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GitaruSchools" />
+        <item itemvalue="Application.CourseStructure" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680525198428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat:added crud operations">
+      <created>1680527256734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680527256734</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +171,8 @@
     <MESSAGE value="Added questions for the english section" />
     <MESSAGE value="feat: added a database connection file" />
     <MESSAGE value="feat:imported jdbc and added Sql2o dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:imported jdbc and added Sql2o dependencies" />
+    <MESSAGE value="feat:added crud operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:added crud operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
