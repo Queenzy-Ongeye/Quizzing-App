@@ -1,24 +1,24 @@
 package org.example.userTable.models;
 
-public class Teachers {
-    private int teacherId;
+public class User {
+    private int userId;
     private String name;
     private String email;
     private String password;
 
-    public Teachers (int teacherId, String name, String email, String password){
-        this.teacherId = teacherId;
+    public User(int userId, String name, String email, String password){
+        this.userId = userId;
         this.name = name;
         this.email = email;
         this.password = password;
     }
 
-    public int getTeacherId() {
-        return teacherId;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setTeacherId(int teacherId) {
-        this.teacherId = teacherId;
+    public void setUserId(int teacherId) {
+        this.userId = teacherId;
     }
 
     public String getName() {
