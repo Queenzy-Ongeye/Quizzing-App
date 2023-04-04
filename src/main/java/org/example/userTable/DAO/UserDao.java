@@ -1,20 +1,20 @@
 package org.example.userTable.DAO;
 
-import org.example.userTable.models.Teachers;
+import org.example.userTable.models.User;
 
 import java.util.List;
 
 public interface UserDao {
 //    Create
-    void addUser(Teachers teachers);
+    void addUser(User user);
 
 //    Read
-    Teachers getTeacherById(int teacherId);
-    List<Teachers> getAllTeachers();
+    User getUserById(int userId);
+    List<User> getAllUsers();
 
 //    Update
-    void updateTeacher(Teachers teachers);
+    void updateUser(User user);
 
 //    Delete
-    void deleteTeacher (int teacherId);
+    void deleteUserById (int userId);
 }
