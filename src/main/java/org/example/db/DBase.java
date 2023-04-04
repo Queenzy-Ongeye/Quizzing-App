@@ -1,4 +1,4 @@
-package org.example.userTable.db;
+package org.example.db;
 
 import org.sql2o.Sql2o;
 

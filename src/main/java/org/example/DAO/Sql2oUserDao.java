@@ -1,6 +1,6 @@
-package org.example.userTable.DAO;
+package org.example.DAO;
 
-import org.example.userTable.models.User;
+import org.example.models.User;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 

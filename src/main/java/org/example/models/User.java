@@ -1,4 +1,4 @@
-package org.example.userTable.models;
+package org.example.models;
 
 public class User {
     private int userId;

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="948ecb08-453b-45a3-98c1-5fc6e069a989" name="Changes" comment="fix: renamed main file to CourseStructure">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="948ecb08-453b-45a3-98c1-5fc6e069a989" name="Changes" comment="feat: added a readme file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/Sql2oTeacherAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/DAO/TeacherAccountDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/GitaruSchools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/userTable/models/TeacherAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680615213876</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: added a readme file">
+      <created>1680615856734</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680615856734</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +207,8 @@
     <MESSAGE value="feat:set crud operations for each entity in the users table" />
     <MESSAGE value="feat:installed postgresql and added jdbc dependencies" />
     <MESSAGE value="fix: renamed main file to CourseStructure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: renamed main file to CourseStructure" />
+    <MESSAGE value="feat: added a readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added a readme file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

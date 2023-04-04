@@ -1,12 +1,11 @@
 package org.example;
 
-import org.example.userTable.DAO.Sql2oUserDao;
-import org.example.userTable.DAO.UserDao;
-import org.example.userTable.models.User;
+import org.example.DAO.Sql2oUserDao;
+import org.example.DAO.UserDao;
+import org.example.models.User;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 
-import java.sql.SQLException;
 import java.util.List;
 
 public class Main {
